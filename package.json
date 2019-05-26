@@ -1,0 +1,22 @@
+{
+    "name": "ra-language-romanian",
+    "version": "1.0.0",
+    "description": "Romanian messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CScaleSoftware/ra-language-romanian.git"
+    },
+    "keywords": [
+        "react",
+        "react-admin",
+        "react-admin",
+        "translation"
+    ],
+    "author": "Cristian Cimpianu",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/CScaleSoftware/ra-language-romanian/issues"
+    },
+    "homepage": "https://github.com/CScaleSoftware/ra-language-romanian#readme"
+}

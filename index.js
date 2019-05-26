@@ -1,0 +1,123 @@
+module.exports = {
+    ra: {
+        action: {
+            add: 'Adaugă',
+            add_filter: 'Adaugă un filtru',
+            back: 'Înapoi',
+            bulk_actions: '1 element selectat |||| %{smart_count} elemente selectate',
+            cancel: 'Anulează',
+            clear_input_value: 'Șterge valoarea',
+            clone: 'Clonează',
+            confirm: 'Confirmă',
+            create: 'Creează',
+            delete: 'Șterge',
+            edit: 'Editează',
+            export: 'Exportă',
+            list: 'Listă',
+            refresh: 'Actualizează',
+            remove: 'Îndepărtează',
+            remove_filter: 'Îndepărtează un filtru',
+            save: 'Salvează',
+            search: 'Caută',
+            show: 'Afișează',
+            sort: 'Sortează',
+            undo: 'Anulează',
+        },
+        boolean: {
+            true: 'Da',
+            false: 'Nu',
+        },
+        page: {
+            create: 'Creează %{name}',
+            dashboard: 'Pagina principala',
+            edit: '%{name} #%{id}',
+            error: 'Ceva n-a mers cum trebuie',
+            list: 'Lista de %{name}',
+            loading: 'Se încarcă',
+            not_found: 'Pagina nu există',
+            show: '%{name} #%{id}',
+        },
+        input: {
+            autocomplete: {
+              none: 'Nicio variantă',
+            },
+            file: {
+              upload_several:'Adăugați fișierele pe care să le încărcați sau faceți clic pentru a le selecta.',
+              upload_single: 'Adăugați fișierul pe care să îl încărcați sau faceți clic pentru a selecta unul.',
+            },
+            image: {
+                upload_several: 'Adăugați imaginile pe care să le încărcați sau faceți clic pentru a le selecta.',
+                upload_single: 'Adăugați imaginea pe care să îl încărcați sau faceți clic pentru a selecta unul.',
+            },
+            embedded_array: {
+                add: 'Adaugă',
+                remove: 'Șterge'
+            },
+            references: {
+                all_missing: 'Nu au fost găsite referinţe',
+                many_missing: 'Cel puţin una dintre referinţele asociate nu mai este disponibilă.',
+                single_missing: 'Referinţa asociată nu mai este disponibilă',
+            }
+        },
+        message: {
+            about: 'Despre',
+            are_you_sure: 'Sunteți sigur ?',
+
+            bulk_delete_content:
+                'Sunteți sigur că doriți să ștergeți acest %{name}? |||| Sunteți sigur că doriți să ștergeți aceste %{smart_count} items?',
+            bulk_delete_title:
+                'Șterge %{name} |||| Șterge %{smart_count} %{name}',
+            delete_content: 'Sunteți sigur că doriți să ștergeți acest element?',
+            delete_title: 'Șterge %{name} #%{id}',
+            details: 'Detalii',
+            error: 'A avut loc o eroare și cererea dumneavoastră n-a putut fi executată',
+            invalid_form: 'Formularul nu este valid. Verificați erorile',
+            loading: 'Pagina se încarcă. Vă rugăm să așteptați un moment',
+            no: 'Nu',
+            not_found: 'Adresa URL introdusă este incorectă sau ați urmat un link greșit.',
+            yes: 'Da',
+        },
+        navigation: {
+            next: 'Urmatoarea',
+            no_results: 'Niciun rezultat',
+            no_more_results: 'Pagina %{page} nu există. încercați pagina precedentă.',
+            page_out_of_boundaries: 'Pagina %{page} este în afara limitelor',
+            page_out_from_end: 'Sfârșitul paginării',
+            page_out_from_begin: 'Pagina trebuie să fie mai mare decât 1',
+            page_range_info: '%{offsetBegin}-%{offsetEnd} din %{total}',
+            page_rows_per_page: 'Rânduri pe pagină:',
+            prev: 'Precedenta',
+        },
+        auth: {
+            logout: 'Deconectați-vă',
+            password: 'Parola',
+            sign_in: 'Autentificare',
+            sign_in_error: 'Autentificarea a eșuat, încercați din nou',
+            username: 'Nume utilizator',
+            user_menu: 'Profil',
+        },
+        notification: {
+            bad_item: 'Element incorect',
+            canceled: 'Acțiune anulată',
+            created: 'Elementul a fost creat',
+            data_provider_error:
+                'Eroare a furnizorului de date. Verificați consola pentru detalii.',
+            deleted: 'Elementul a fost șters |||| %{smart_count} elemente au fost șterse',
+            http_error: 'Eroare de comunicare cu serverul',
+            item_doesnt_exist: 'Elementul nu există',
+            logged_out: 'Sesiunea dumneavoastră s-a încheiat. Vă rugăm să vă reconectați.',
+            updated: 'Element actualizat |||| %{smart_count} elemente actualizate',
+        },
+        validation: {
+            email: 'Trebuie să fie un email',
+            maxLength: 'Maxim %{max} caractere',
+            maxValue: 'Maxim %{max}',
+            minLength: 'Minim %{min} caractere',
+            minValue: 'Minim %{min}',
+            number: 'Trebuie să fie un număr',
+            oneOf: 'Trebuie să fie una dintre următoarele: %{options}',
+            regex: 'Trebuie să urmeze un format specific (regexp): %{pattern}',
+            required: 'Câmpul este necesar',
+        },
+    },
+};
